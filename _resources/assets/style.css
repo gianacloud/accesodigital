@@ -1,0 +1,87 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: #fafafa;
+}
+
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  padding-bottom: 10px;
+}
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  font-size: 38px;
+  font-family: Fredoka One,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #55505C;
+}
+small {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #55505C !important;
+  font-size: 20px !important;
+}
+.footer {
+  padding-top: 19px;
+  color: #777;
+}
+.sos-ico {
+  color: #F15025;
+}
+.btn-descarga, .btn-descarga:active, .btn-descarga:focus {
+  color: #E2E8DD;
+  background-color: #F15025;
+}
+.btn-descarga:hover {
+  color: #E2E8DD;
+  background-color: #00A676;
+}
+
+.central {
+  text-align: center;
+  background-color: #55505C;
+  border-radius: 20px;
+  padding: 20px;
+}
+.central h1 {
+  color: #00A676;
+}
+.central p {
+  color: #F1EDEC;
+}
+.central .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+.central h1 {
+  font-size: 50px !important;
+}
+@media screen and (min-width: 768px) {
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 10px;
+  }
+  .central {
+    border-bottom: 0;
+    padding: 40px;
+  }
+  .container {
+    max-width: 730px;
+  }
+}
+@media(max-width: 360px) {
+  small {
+    font-size: 20px !important;
+  }
+}
